@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_margin="10dp"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="10dp"
+        app:cardBackgroundColor="#696969"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/backm"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="8dp"
+                app:srcCompat="@mipmap/ic_launcher_round" />
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="39dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="0dp"
+
+                android:fontFamily="@font/bold"
+                android:text="Sciber Crew"
+                android:textColor="@color/white"
+                android:textSize="17dp" />
+
+            <ImageView
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/imageView"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"/>
+                
+            <TextView
+                android:layout_below="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/TextViewHead"
+                android:fontFamily="@font/reg"
+                android:layout_marginTop="0dp"
+                android:textColor="#fff"
+                android:textSize="15dp"
+                android:text="Heading"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

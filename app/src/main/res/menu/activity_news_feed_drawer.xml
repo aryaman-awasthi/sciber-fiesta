@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/aboutsf"
+            android:fontFamily="@font/bold"
+            android:icon="@drawable/sflogowhite"
+            android:title="About Sciber Fiesta"
+
+            />
+        <item
+            android:id="@+id/nav_team"
+            android:fontFamily="@font/bold"
+            android:icon="@drawable/ic_action_move_person_blue"
+            android:title="Team"
+            />
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Events" />
+        <item
+            android:id="@+id/nav_web"
+            android:icon="@drawable/ic_action_web"
+            android:title="SF'19 official website" />
+        <item
+            android:id="@+id/nav_venue"
+            android:icon="@drawable/ic_action_location"
+            android:title="Venue" />
+
+
+    </group>
+    <item android:title="Contact">
+        <menu>
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/ic_action_contact"
+                android:title="Contact Us" />
+            <item
+                android:id="@+id/contactar"
+                android:icon="@drawable/ic_action_contact"
+                android:title="Contact The Developer" />
+        </menu>
+    </item>
+
+</menu>

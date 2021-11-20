@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpSchool"
+    android:background="#141414"
+
+    >
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:layout_marginStart="8dp"
+
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:fontFamily="@font/bold"
+                android:text="Participants"
+                android:textColor="@color/blue"
+                android:textSize="30dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.033" />
+
+            <EditText
+                android:id="@+id/participant1"
+                android:layout_width="325dp"
+                android:layout_height="52dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="32dp"
+
+                android:padding="10dp"
+                android:textColor="@color/blue"
+                android:textColorHint="@color/blue"
+                android:drawableLeft="@drawable/ic_action_move_person_blue"
+                android:fontFamily="@font/reg"
+                android:background="@drawable/custombuttonlessround"
+
+                android:hint="  Participant 1"
+                android:singleLine="true" />
+           <EditText
+            android:id="@+id/participant2"
+            android:layout_marginTop="32dp"
+            android:layout_width="325dp"
+            android:layout_height="50dp"
+               android:padding="10dp"
+            android:layout_gravity="center"
+               android:singleLine="true"
+               android:textColor="@color/blue"
+               android:textColorHint="@color/blue"
+               android:fontFamily="@font/reg"
+               android:drawableLeft="@drawable/ic_action_move_person_blue"
+            android:background="@drawable/custombuttonlessround"
+            android:hint="  Participant 2"
+            />
+            <EditText
+                android:id="@+id/participant3"
+                android:padding="10dp"
+                android:layout_marginTop="32dp"
+                android:layout_width="325dp"
+                android:singleLine="true"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:background="@drawable/custombuttonlessround"
+                android:hint="  Participant 3"
+                android:textColor="@color/blue"
+                android:textColorHint="@color/blue"
+                android:fontFamily="@font/reg"
+                android:drawableLeft="@drawable/ic_action_move_person_blue"
+                />
+            <EditText
+                android:id="@+id/participant4"
+                android:layout_marginTop="32dp"
+                android:layout_width="325dp"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:textColor="@color/blue"
+                android:textColorHint="@color/blue"
+                android:drawableLeft="@drawable/ic_action_move_person_blue"
+                android:fontFamily="@font/reg"
+                android:background="@drawable/custombuttonlessround"
+                android:hint="  Participant 4"
+
+
+                />
+            <EditText
+                android:id="@+id/participant5"
+                android:layout_marginTop="32dp"
+                android:layout_width="325dp"
+                android:layout_height="50dp"
+                android:fontFamily="@font/reg"
+                android:padding="10dp"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:textColor="@color/blue"
+                android:textColorHint="@color/blue"
+                android:drawableLeft="@drawable/ic_action_move_person_blue"
+
+                android:background="@drawable/custombuttonlessround"
+                android:hint="  Participant 5"
+                />
+            <EditText
+                android:id="@+id/participant6"
+                android:fontFamily="@font/reg"
+                android:layout_marginTop="32dp"
+                android:layout_width="325dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:background="@drawable/custombuttonlessround"
+                android:hint="  Participant 6"
+                android:textColor="@color/blue"
+                android:textColorHint="@color/blue"
+                android:drawableLeft="@drawable/ic_action_move_person_blue"
+                />
+            <EditText
+                android:fontFamily="@font/reg"
+                android:id="@+id/participant7"
+                android:layout_marginTop="32dp"
+                android:layout_width="325dp"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:layout_gravity="center"
+                android:background="@drawable/custombuttonlessround"
+                android:hint="  Participant 7"
+                android:textColor="@color/blue"
+                android:textColorHint="@color/blue"
+                android:drawableLeft="@drawable/ic_action_move_person_blue"
+                />
+            <EditText
+                android:fontFamily="@font/reg"
+                android:id="@+id/participant8"
+                android:layout_marginTop="32dp"
+                android:layout_width="325dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:background="@drawable/custombuttonlessround"
+                android:hint="  Participant 8"
+                android:textColor="@color/blue"
+                android:textColorHint="@color/blue"
+                android:drawableLeft="@drawable/ic_action_move_person_blue"
+                />
+            <EditText
+                android:fontFamily="@font/reg"
+                android:id="@+id/participant9"
+                android:layout_marginTop="32dp"
+                android:layout_width="325dp"
+                android:layout_height="50dp"
+                android:singleLine="true"
+                android:layout_gravity="center"
+                android:background="@drawable/custombuttonlessround"
+                android:hint="  Participant 9"
+                android:padding="10dp"
+                android:textColor="@color/blue"
+                android:textColorHint="@color/blue"
+                android:drawableLeft="@drawable/ic_action_move_person_blue"
+                />
+            <EditText
+                android:fontFamily="@font/reg"
+                android:id="@+id/participant10"
+                android:layout_marginTop="32dp"
+                android:layout_width="325dp"
+                android:singleLine="true"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:background="@drawable/custombuttonlessround"
+                android:hint="  Participant 10"
+                android:padding="10dp"
+                android:drawableLeft="@drawable/ic_action_name"/>
+
+            <EditText
+                android:fontFamily="@font/reg"
+                android:id="@+id/participant11"
+                android:layout_marginTop="32dp"
+                android:padding="10dp"
+                android:layout_width="325dp"
+                android:layout_height="50dp"
+                android:singleLine="true"
+                android:layout_gravity="center"
+                android:background="@drawable/custombuttonlessround"
+                android:hint="  Participant 11"
+                android:textColor="@color/blue"
+                android:textColorHint="@color/blue"
+                android:drawableLeft="@drawable/ic_action_move_person_blue"
+                />
+            <EditText
+                android:fontFamily="@font/reg"
+                android:id="@+id/participant12"
+                android:layout_marginTop="32dp"
+                android:padding="10dp"
+                android:layout_width="325dp"
+                android:layout_height="50dp"
+
+                android:singleLine="true"
+                android:layout_gravity="center"
+                android:background="@drawable/custombuttonlessround"
+                android:hint="  Participant 12"
+                android:textColor="@color/blue"
+                android:textColorHint="@color/blue"
+                android:drawableLeft="@drawable/ic_action_move_person_blue"
+                />
+            <EditText
+                android:fontFamily="@font/reg"
+                android:id="@+id/participant13"
+                android:layout_marginTop="32dp"
+                android:layout_width="325dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:background="@drawable/custombuttonlessround"
+                android:singleLine="true"
+                android:hint="  Participant 13"
+                android:textColor="@color/blue"
+                android:textColorHint="@color/blue"
+                android:drawableLeft="@drawable/ic_action_move_person_blue"
+                />
+            <EditText
+                android:fontFamily="@font/reg"
+                android:id="@+id/participant14"
+                android:layout_marginTop="32dp"
+                android:padding="10dp"
+                android:layout_width="325dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:background="@drawable/custombuttonlessround"
+                android:hint="  Participant 14"
+                android:singleLine="true"
+                android:textColor="@color/blue"
+                android:textColorHint="@color/blue"
+                android:drawableLeft="@drawable/ic_action_move_person_blue"
+                />
+            <EditText
+                android:fontFamily="@font/reg"
+                android:id="@+id/participant15"
+                android:layout_marginTop="32dp"
+                android:layout_width="325dp"
+                android:singleLine="true"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:layout_gravity="center"
+                android:background="@drawable/custombuttonlessround"
+                android:hint="  Participant 15"
+                android:textColor="@color/blue"
+                android:textColorHint="@color/blue"
+                android:drawableLeft="@drawable/ic_action_move_person_blue"
+                />
+
+            <TextView
+
+                android:layout_marginTop="40dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prticipants of Leaders' Contention"
+                android:textSize="24dp"
+                android:textColor="@color/blue"
+                android:layout_gravity="center"
+                android:fontFamily="@font/reg"
+                android:layout_marginBottom="40dp"
+                />
+
+            <EditText
+                android:fontFamily="@font/reg"
+                android:singleLine="true"
+                android:id="@+id/participant1L"
+                android:padding="10dp"
+                android:layout_marginTop="32dp"
+                android:layout_width="325dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:background="@drawable/custombuttonlessround"
+                android:hint="  Participant 1"
+                android:textColor="@color/blue"
+                android:textColorHint="@color/blue"
+                android:drawableLeft="@drawable/ic_action_move_person_blue"
+                />
+            <EditText
+                android:fontFamily="@font/reg"
+                android:singleLine="true"
+                android:padding="10dp"
+                android:id="@+id/participant2L"
+                android:layout_marginTop="32dp"
+                android:layout_width="325dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:background="@drawable/custombuttonlessround"
+                android:hint="  Participant 2"
+                android:textColor="@color/blue"
+                android:textColorHint="@color/blue"
+                android:drawableLeft="@drawable/ic_action_move_person_blue"
+                />
+
+            <Button
+                android:id="@+id/continueButt"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="32dp"
+                android:layout_marginBottom="40dp"
+                android:background="@drawable/custom_button"
+                android:drawableRight="@drawable/ic_action_move_forward_white"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/reg"
+                android:paddingLeft="8dp"
+                android:paddingRight="20dp"
+                android:text="Submit"
+                android:textAllCaps="true"
+                android:textColor="#fff"
+                android:textSize="25dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

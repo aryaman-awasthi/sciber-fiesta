@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backa"
+    tools:context=".abtus"
+    android:padding="20dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sffont"
+        android:gravity="center"
+        android:text="Sciber fiesta"
+        android:textAllCaps="true"
+        android:layout_marginTop="32dp"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        />
+    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:layout_gravity="center"
+        android:src="@drawable/sflogowhite"
+        app:civ_border_color="#696969"
+        app:civ_border_width="0dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/reg"
+            android:text="SCIBER FIESTA is a two day Inter-School Techno, Cultural and Literary fest . In this year’s edition, we will once again bring together students from classes IX to XII from more than
+25 schools of the city. We aim at the enhancement of the knowledge of the paticipants
+and their exposure to such events, which will result in ultimately widening their mindsets
+and will make their personality dynamic.
+For the past years Methodist High School International has witnessed a huge success
+and this year, the SCIBER CREW is back at it again, with a whole new level of enthusiasm
+and determination. This year’s SCIBER FIESTA has been made even more versatile by
+including competitions covering cultural, scientific and technical events so as to provide
+each student an equal opportunity to showcase their talent among the top schools of
+the city."/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="With Regards,"
+        android:fontFamily="@font/reg"
+        android:layout_marginTop="4dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Sciber Crew"
+        android:fontFamily="@font/reg"
+        android:layout_marginTop="1dp"/>
+</LinearLayout>

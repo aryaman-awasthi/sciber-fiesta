@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "975049280",
+    "firebase_url": "https://sciber-fiesta-19.firebaseio.com",
+    "project_id": "sciber-fiesta-19",
+    "storage_bucket": "sciber-fiesta-19.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:975049280:android:3210fdcee2e9d53c",
+        "android_client_info": {
+          "package_name": "in.co.stitchup.sf19"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "975049280-6hvsach5u9kf96rr7fibe4pls0absf3g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.co.stitchup.sf19",
+            "certificate_hash": "4fe40bc1662add509ba97dd66543449ad258c112"
+          }
+        },
+        {
+          "client_id": "975049280-e6ain1rsl0ghhtej0vnn03pks21qrs4m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWEtgdD5A3rncjivf2W7G5R30kz6VSBBc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "975049280-e6ain1rsl0ghhtej0vnn03pks21qrs4m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
